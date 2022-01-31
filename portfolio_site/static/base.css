@@ -1,0 +1,76 @@
+:root {
+    --green-sade: #29d95b;
+    --light: #ffffff;
+    --dark: black;
+    --teal-blue: #00969c;
+  }
+
+  .project-stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    }
+/* 
+
+.contact{
+    position:relative;
+    float:left;
+    border-radius:10px;
+    padding:15px 40px;
+    color :limegreen;
+    font-weight:bold;
+    margin-right:40px;
+    text-align:center;
+}
+.contact:hover{
+    background-color: rgb(125, 247, 125);
+    color:white;
+    transition: all 0.3s ease;
+}
+
+
+
+.branding span{
+    color:limegreen;
+}
+
+.links_1{
+    margin-right: 50px;
+    margin-left: 60px;
+}   
+
+.active, .links_1:hover{
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    background:none;
+    margin-right: 50px;
+    margin-left: 60px;
+}
+
+
+ */
+
+ *{
+    font-family: 'Arimo', sans-serif;
+ }
+
+.branding{
+    font-weight: bold;
+    font-size:4em;
+    text-shadow: black;
+}
+
+li{
+    /* padding-right: 4em; */
+    font-weight: bold;
+    font-size:medium;
+ }
+
+ span{
+     color: var(--green-sade);
+ }
+
+ .brand-sahd{
+    text-shadow: 5px black;
+ }

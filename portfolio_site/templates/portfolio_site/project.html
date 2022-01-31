@@ -1,0 +1,28 @@
+{% extends 'portfolio_site/base.html' %}
+{% block title %}Project {% endblock %}
+{% block pro_active  %} active {% endblock %}
+
+
+{% block content %}
+{%load static %}
+<link rel="stylesheet" href="{% static './project.css' %}">
+
+<body>
+
+	<div class="container">
+		<h1>First Project</h1>
+	</div>
+
+	<div class="cards">
+
+
+		<img class="pic-pro"src="{% static 'images/project_1.png' %}">
+
+		<div class="content"> </div>
+		<div class="content"> This is my first ever project purly written in python 3, in this project i have used OOPs(object orianted programming) and Tkinter the GUI moduel for GUI creation also this app use API to fetch stock market data and show in columns with Graf in organized way.</div>
+		
+	</div>
+		
+	
+</body>
+{% endblock %}
